@@ -14,7 +14,6 @@ public class JDBSConnector {
 
                 connection = DriverManager.getConnection("jdbc:mysql://localhost/labjava?serverTimezone=Europe/Moscow&useSSL=false&allowPublicKeyRetrieval=true&useSSL=false", "vladuser", "3208455258Ss");
                 statement = connection.createStatement();
-
             } catch (SQLException e) {
                 e.printStackTrace();
             }
